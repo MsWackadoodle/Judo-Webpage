@@ -1469,3 +1469,21 @@ footer h3 a:hover { color: #5BD982; text-decoration: none; }
   main .gallery .g-full { width: 80%; margin: 0 10%; background-size: cover; }
   main .connect .col-md-3 { height: 115px; }
   main .connect .col-md-3 a img { left: 23%; top: 24%; height: 50%; } }
+@media only screen and (max-width: 690px) { header .container-fluid { min-height: 410px; background-position: -30px 0px; }
+  header .container-fluid .container:nth-child(2) .col-md-5 h1 { font-size: 2.5em; margin-left: 0; } }
+@media only screen and (max-width: 480px) { header .container-fluid { min-height: 315px; }
+  header .container-fluid .container:nth-child(2) .col-md-5 h1 { font-size: 1.8em; margin: 0; }
+  main .first-top .container p { padding: 0 10%; }
+  main .second-top { height: 350px; }
+  main .second-top .col-xs-5 { width: 44%; }
+  main .second-top .col-xs-5 h2 { font-size: 1.9em; }
+  main .second-top .col-xs-5 p { line-height: 1.6em; }
+  main .third-top .col-md-6 { width: 100%; margin-left: 0; }
+  main .news .container .col-md-6 { padding: 0; }
+  main .news .container .col-md-6 .col-xs-3, main .news .container .col-md-6 .col-xs-9 { padding: 0; }
+  main .news .container .col-md-6 .col-xs-9 h3, main .news .container .col-md-6 p { padding-left: 20px; }
+  main .testimonials .test-subj-sp h3 { margin: 10px 0; }
+  main .testimonials .test-subj-sp p { line-height: 1.75em; }
+  main .connect .col-xs-3 { height: 135px; width: 30%; margin: 5%; }
+  main .connect .col-xs-3:nth-child(2n) { margin-left: 15%; }
+  main .connect .col-xs-3:nth-child(2n+1) { margin-right: 15%; } }
