@@ -1406,7 +1406,7 @@ main .connect .col-md-3:nth-child(3):hover { background-color: #CC2127; }
 main .connect .col-md-3:nth-child(4):hover { background-color: #55ACEE; }
 main .connect .col-md-3:nth-child(5):hover { background-color: #DD4B39; }
 main .prefoot { background-color: #ECECEC; }
-main .prefoot .container .map iframe { border: 6px solid white; }
+main .prefoot .container .map iframe { width: 100%; border: 6px solid white; }
 main .contactus .col-md-5 p { display: inline-block; }
 main .contactus .col-md-7 .input-group { width: 100%; }
 main .contactus .col-md-7 .input-group input { width: 31%; border: 1px solid white; margin-bottom: 20px; height: 40px; padding: 0 10px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
@@ -1471,6 +1471,13 @@ footer h3 a:hover { color: #5BD982; text-decoration: none; }
   main .connect .col-md-3 a img { left: 23%; top: 24%; height: 50%; } }
 @media only screen and (max-width: 690px) { header .container-fluid { min-height: 410px; background-position: -30px 0px; }
   header .container-fluid .container:nth-child(2) .col-md-5 h1 { font-size: 2.5em; margin-left: 0; } }
+@media only screen and (max-width: 560px) { header .container-fluid { min-height: 360px; }
+  main .second-top { height: 320px; }
+  main .second-top .col-md-4 h2 { font-size: 2.2em; margin-bottom: 0.5em; }
+  main .second-top .col-md-4 p { line-height: 1.5em; }
+  main .connect .col-md-3 { height: 100px; }
+  main .map { height: 260px; }
+  main .map iframe { height: inherit !important; } }
 @media only screen and (max-width: 480px) { header .container-fluid { min-height: 315px; }
   header .container-fluid .container:nth-child(2) .col-md-5 h1 { font-size: 1.8em; margin: 0; }
   main .first-top .container p { padding: 0 10%; }

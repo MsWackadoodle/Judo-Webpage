@@ -266,6 +266,7 @@ main {
 	.prefoot {
 		background-color: #ECECEC;
 		.container .map iframe {
+			width: 100%;
 			border: 6px solid white;
 		}
 	}
@@ -515,6 +516,27 @@ footer {
 		}
 	}
 } 
+
+@media only screen and (max-width: 560px) {
+	header .container-fluid {
+		min-height: 360px;
+	}
+	main { 
+		.second-top {
+		height: 320px;
+			.col-md-4 { 
+				h2 {
+				font-size: 2.2em;
+				margin-bottom: 0.5em;
+				}
+				p { line-height: 1.5em; }
+			}
+		}
+		.connect .col-md-3 { height: 100px; }
+		.map { height: 260px; iframe { height: inherit !important; } }
+	}
+}
+
 @media only screen and (max-width: 480px) {
 	header .container-fluid {
 		min-height: 315px;
